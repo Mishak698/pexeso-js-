@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pexeso - Více hráčů</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="setup">
+    <label for="players">Vyber počet hráčů:</label>
+    <select id="players">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <button id="start-btn">Start</button>
+  </div>
+
+  <div id="game-board"></div>
+
+  <div id="status">
+    <p id="turn-info"></p>
+    <p id="attempts-info"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
